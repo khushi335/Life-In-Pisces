@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Elite Custom Woodworking & Architectural Millwork. Professional craftsmanship, SEO optimized designs.">
+
+    <title>Life In Pieces | Architectural Woodworking Specialists</title>
+
+    <!-- Premium Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="stylesheet" href="/static/css/contact.css">
+</head>
+<body>
+
+    <!-- SECTION 1: TOP UTILITY BAR -->
+    <div class="top-bar">
+    <div class="container flex-nav">
+        <div class="top-left">
+            <span class="top-info"><i class="fas fa-map-marker-alt"></i> Maryland</span>
+            <span class="top-info hide-mobile"><i class="fas fa-envelope"></i> info@lifeinpieces.com</span>
+        </div>
+        <div class="top-right">
+            <span class="top-info"><i class="fas fa-phone-alt"></i> 443-228-6769</span>
+            <div class="top-socials">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-pinterest-p"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<nav class="main-nav">
+    <div class="container flex-nav">
+
+        <a href="/" class="logo">
+            <img src="/static/img/logo_pisces.png" alt="WoodCraft Elite Logo">
+        </a>
+
+        <ul class="nav-links">
+            <li><a href="/"><b>Home</b></a></li>
+            <li><a href="/about/"><b>About</b></a></li>
+            <li><a href="/service/"><b>Services</b></a></li>
+            <li><a href="/project/"><b>Our Project</b></a></li>
+            <li><a href="/contact/"><b>Contact</b></a></li>
+        </ul>
+
+        <div class="menu-toggle" id="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+
+        <a href="tel:4432286769" class="cta-nav">
+            <i class="fas fa-phone-alt"></i>
+            <b>443-228-6769</b>
+        </a>
+
+    </div>
+</nav>
+
+    <main>
+<!-- CONTACT PAGE BANNER -->
+<section class="sub-banner contact-services-banner">
+    <style>
+        .contact-services-banner {
+            height: 50vh;
+            min-height: 400px;
+            position: relative;
+            display: flex;
+            align-items: center;
+            overflow: hidden;
+            background: #000;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        /* The background image layer */
+        .banner-bg-wrapper {
+            position: absolute;
+            inset: 0;
+            z-index: 1;
+        }
+
+        .banner-bg-wrapper img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+            filter: brightness(0.6); /* Ensures text contrast */
+        }
+
+        /* Glass-morphism content plate */
+        .banner-container {
+            position: relative;
+            z-index: 10;
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .banner-glass-card {
+            max-width: 550px;
+            background: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(15px);
+            -webkit-backdrop-filter: blur(15px);
+            padding: 50px;
+            border-left: 4px solid #D4AF37;
+            border-top: 1px solid rgba(212, 175, 55, 0.2);
+            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.3);
+            animation: slideInLeft 0.8s ease-out;
+        }
+
+        .banner-glass-card span {
+            color: #D4AF37;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            font-weight: 700;
+            font-size: 0.85rem;
+            display: block;
+            margin-bottom: 15px;
+        }
+
+        .banner-glass-card h1 {
+            color: #ffffff;
+            font-size: 3.5rem;
+            font-weight: 800;
+            line-height: 1.1;
+            margin: 0 0 20px 0;
+            letter-spacing: -1px;
+        }
+
+        .banner-glass-card p {
+            color: #cccccc;
+            font-size: 1rem;
+            line-height: 1.6;
+            margin: 0;
+            font-weight: 300;
+        }
+
+        /* Smooth Entry Animation */
+        @keyframes slideInLeft {
+            from { opacity: 0; transform: translateX(-40px); }
+            to { opacity: 1; transform: translateX(0); }
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .contact-services-banner { height: 40vh; }
+            .banner-glass-card { 
+                padding: 30px; 
+                margin: 0 10px;
+                text-align: center;
+                border-left: none;
+                border-bottom: 4px solid #D4AF37;
+            }
+            .banner-glass-card h1 { font-size: 2.5rem; }
+        }
+    </style>
+
+    <div class="banner-bg-wrapper">
+        <!-- Static image kept in HTML as requested -->
+        <img src="/static/img/hero.png" alt="Luxury Woodworking Services in Lakeway">
+    </div>
+
+    <div class="banner-container">
+        <div class="banner-glass-card">
+            <span>Precision & Artistry</span>
+            <h1>Our Services</h1>
+            <p>From full-scale kitchen transformations to custom architectural millwork, we bring master-level craftsmanship to every Lakeway home.</p>
+        </div>
+    </div>
+</section>
+
+<section class="contact-page">
+    <div class="container">
+        <!-- Header Section -->
+        <div class="contact-header">
+            <span class="wood-eyebrow">Expert Craftsmanship</span>
+            <h1>Get in Touch with Our <span class="text-oak">Master Builders</span></h1>
+            <p>Ready to start your custom project? Fill out the form below or reach out directly to us.</p>
+        </div>
+
+        <div class="contact-grid">
+            <!-- Contact Information Card -->
+            <div class="contact-info-card">
+                <div class="info-block">
+                    <h3>Our Workshop</h3>
+                    <p>Maryland</p>
+                </div>
+                
+                <div class="info-block">
+                    <h3>Contact Details</h3>
+                    <p><strong>Phone:</strong> 443-228-6769</p>
+                    <p><strong>Email:</strong> info@lifeinpieces.com</p>
+                </div>
+
+                <div class="info-block">
+                    <h3>Business Hours</h3>
+                    <p>Mon - Fri: 8:00 AM - 5:00 PM</p>
+                    <p>Sat: By Appointment Only</p>
+                </div>
+
+                <div class="social-box">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <!-- Modern Inquiry Form -->
+            <div class="contact-form-wrapper">
+                <form action="#" method="POST" class="wood-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" placeholder="John Doe" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Project Type</label>
+                        <select id="subject" name="subject">
+                            <option value="kitchen">Kitchen Island</option>
+                            <option value="office">Home Office</option>
+                            <option value="entertainment">Entertainment Center</option>
+                            <option value="bathroom">Bathroom Vanity</option>
+                            <option value="other">Other Custom Woodwork</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Your Vision</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Describe your project requirements..."></textarea>
+                    </div>
+
+                    <button type="submit" class="wood-submit-btn">
+                        Submit Inquiry <span>&rarr;</span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+    </main>
+
+    <!-- SECTION 14: FOOTER -->
+<footer class="footer">
+    <div class="container grid-footer">
+        <div class="footer-box brand-col">
+            <h3>LIFE <span class="text-gold">IN PISCES</span></h3>
+            <p>Architectural millwork and bespoke furniture designed for the most discerning clients. Precision in every grain, excellence in every detail.</p>
+            <div class="footer-socials">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+
+        <div class="footer-box">
+            <h4>Quick Links</h4>
+            <ul>
+                <li><a href="#"><b>Kitchen Design</b></a></li>
+                <li><a href="#"><b>Office Build-outs</b></a></li>
+                <li><a href="#"><b>Custom Furniture</b></a></li>
+                <li><a href="#"><b>Commercial Solutions</b></a></li>
+            </ul>
+        </div>
+
+        <div class="footer-box">
+            <h4>Contact Info</h4>
+            <div class="contact-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <p>Maryland</p>
+            </div>
+            <div class="contact-item">
+                <i class="fas fa-phone-alt"></i>
+                <p>443-228-6769</p>
+            </div>
+        </div>
+
+        <div class="footer-box">
+            <h4>Newsletter</h4>
+            <p class="newsletter-text">Join our list for exclusive design insights.</p>
+            <div class="sub-form">
+                <input type="email" placeholder="Email Address">
+                <button aria-label="Subscribe"><i class="fas fa-paper-plane"></i></button>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- SECTION 15: COPYRIGHT BAR -->
+<div class="copyright-bar">
+    <div class="container flex-footer">
+        <p>&copy; 2026 <b>Life In Pieces</b>. All Rights Reserved.</p>
+        <p>Designed by <a href="https://quantumcoresoftware.com/" class="designer-link"><b>Quantum Core Software</b></a></p>
+    </div>
+</div>
+<script>
+const toggle = document.getElementById('menu-toggle');
+const navLinks = document.querySelector('.nav-links');
+
+toggle.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+});
+</script>
+</body>
+</html>
