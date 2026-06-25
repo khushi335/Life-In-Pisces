@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Elite Custom Woodworking & Architectural Millwork. Professional craftsmanship, SEO optimized designs.">
+
+    <title>Life In Pieces | Architectural Woodworking Specialists</title>
+
+    <!-- Premium Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="stylesheet" href="/static/css/contact.css">
+</head>
+<body>
+
+    <!-- SECTION 1: TOP UTILITY BAR -->
+    <div class="top-bar">
+    <div class="container flex-nav">
+        <div class="top-left">
+            <span class="top-info"><i class="fas fa-map-marker-alt"></i> Maryland</span>
+            <span class="top-info hide-mobile"><i class="fas fa-envelope"></i> info@lifeinpieces.com</span>
+        </div>
+        <div class="top-right">
+            <span class="top-info"><i class="fas fa-phone-alt"></i> 443-228-6769</span>
+            <div class="top-socials">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-pinterest-p"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<nav class="main-nav">
+    <div class="container flex-nav">
+
+        <a href="/" class="logo">
+            <img src="/static/img/logo_pisces.png" alt="WoodCraft Elite Logo">
+        </a>
+
+        <ul class="nav-links">
+            <li><a href="/"><b>Home</b></a></li>
+            <li><a href="/about/"><b>About</b></a></li>
+            <li><a href="/service/"><b>Services</b></a></li>
+            <li><a href="/project/"><b>Our Project</b></a></li>
+            <li><a href="/contact/"><b>Contact</b></a></li>
+        </ul>
+
+        <div class="menu-toggle" id="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+
+        <a href="tel:4432286769" class="cta-nav">
+            <i class="fas fa-phone-alt"></i>
+            <b>443-228-6769</b>
+        </a>
+
+    </div>
+</nav>
+
+    <main>
+<section class="project-service-banner">
+    <style>
+        .project-service-banner {
+            height: 50vh;
+            min-height: 400px;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start; /* Aligns text to the left for a modern look */
+            background: #0f0f0f;
+            overflow: hidden;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        /* The Background Image from your static folder */
+        .banner-bg-img {
+            position: absolute;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+            z-index: 1;
+        }
+
+        /* Dark Overlay for depth */
+        .banner-overlay {
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(90deg, 
+                rgba(0, 0, 0, 0.85) 0%, 
+                rgba(0, 0, 0, 0.4) 50%, 
+                transparent 100%);
+            z-index: 2;
+        }
+
+        .banner-container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 5%;
+            position: relative;
+            z-index: 10;
+        }
+
+        /* Glass Plate Design */
+        .glass-plate {
+            display: inline-block;
+            background: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            padding: 40px 60px;
+            border-left: 4px solid #D4AF37; /* The Gold Accent */
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            animation: slideIn 0.8s ease-out;
+        }
+
+        .banner-tag {
+            color: #D4AF37;
+            text-transform: uppercase;
+            letter-spacing: 6px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-bottom: 15px;
+            display: block;
+        }
+
+        .banner-title {
+            color: #ffffff;
+            font-size: clamp(2.5rem, 5vw, 4.5rem);
+            font-weight: 800;
+            margin: 0;
+            line-height: 1;
+            text-transform: uppercase;
+            letter-spacing: -1px;
+        }
+
+        /* Animation for a professional entrance */
+        @keyframes slideIn {
+            from { opacity: 0; transform: translateX(-50px); }
+            to { opacity: 1; transform: translateX(0); }
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .project-service-banner { height: 40vh; justify-content: center; text-align: center; }
+            .glass-plate { padding: 30px; border-left: none; border-bottom: 3px solid #D4AF37; }
+            .banner-overlay { background: rgba(0,0,0,0.6); }
+        }
+    </style>
+
+    <!-- Background Image Layer -->
+    <img src="/static/img/hero.png" alt="DS Woodworks Service Portfolio" class="banner-bg-img">
+    <div class="banner-overlay"></div>
+
+    <div class="banner-container">
+        <div class="glass-plate">
+            <span class="banner-tag">Portfolio of Excellence</span>
+            <h1 class="banner-title">Our <span style="color: #D4AF37;">Projects.</span></h1>
+        </div>
+    </div>
+</section>
+<br>
+<br>
+
+<!-- SECTION: OUR CUSTOM PROJECTS -->
+<section id="custom-projects" class="jr-style-section">
+    <div class="container">
+        
+        <div class="jr-title-area">
+            <h2 class="jr-main-title">Our Custom <span>Woodworking</span> Projects</h2>
+            <div class="jr-gold-divider"></div>
+        </div>
+
+        <div class="jr-projects-grid">
+            <!-- 01: Bathroom Vanities -->
+            <div class="jr-project-col">
+                <article class="jr-card">
+                    <a href="#">
+                        <div class="jr-img-wrapper">
+                            <img src="https://c.imgcdn.me/57ded657baf52bc24cb60331e6a8e5b1c8464f21/jandrwoodworking/bathroom_slideshow.JPEG" alt="Bathroom Vanities">
+                            <!-- <span class="jr-view-more">View More</span> -->
+                        </div>
+                        <div class="jr-caption">
+                            <strong>Bathroom Vanities</strong>
+                        </div>
+                    </a>
+                </article>
+            </div>
+
+            <!-- 02: Home Offices -->
+            <div class="jr-project-col">
+                <article class="jr-card">
+                    <a href="#">
+                        <div class="jr-img-wrapper">
+                            <img src="https://c.imgcdn.me/66db2d50b783f3798c3632baa5fceba9f05d7e3a/jandrwoodworking/office-img.png" alt="Home Offices">
+                            <!-- <span class="jr-view-more">View More</span> -->
+                        </div>
+                        <div class="jr-caption">
+                            <strong>Home Offices</strong>
+                        </div>
+                    </a>
+                </article>
+            </div>
+
+            <!-- 03: Entertainment Centers -->
+            <div class="jr-project-col">
+                <article class="jr-card">
+                    <a href="#">
+                        <div class="jr-img-wrapper">
+                            <img src="https://c.imgcdn.me/46da48f73f924d8c6a0756445c47688c5a26007d/jandrwoodworking/entertainment-slide.JPEG" alt="Entertainment Centers">
+                            <!-- <span class="jr-view-more">View More</span> -->
+                        </div>
+                        <div class="jr-caption">
+                            <strong>Entertainment Centers</strong>
+                        </div>
+                    </a>
+                </article>
+            </div>
+
+            <!-- 04: Bedrooms -->
+            <div class="jr-project-col">
+                <article class="jr-card">
+                    <a href="#">
+                        <div class="jr-img-wrapper">
+                            <img src="https://c.imgcdn.me/37e0b328a76c2e546635c41e348607558a6ea0d8/jandrwoodworking/bedroom1.png" alt="Bedrooms">
+                            <!-- <span class="jr-view-more">View More</span> -->
+                        </div>
+                        <div class="jr-caption">
+                            <strong>Bedrooms</strong>
+                        </div>
+                    </a>
+                </article>
+            </div>
+
+            <!-- 05: Mantels & Fire Place -->
+            <div class="jr-project-col">
+                <article class="jr-card">
+                    <a href="#">
+                        <div class="jr-img-wrapper">
+                            <img src="https://c.imgcdn.me/ad1e7bad858e8d9906d889a4e4b16b8b46f1d6ff/jandrwoodworking/mantels-fire-place.png" alt="Mantels & Fire Place">
+                            <!-- <span class="jr-view-more">View More</span> -->
+                        </div>
+                        <div class="jr-caption">
+                            <strong>Mantels & Fire Place</strong>
+                        </div>
+                    </a>
+                </article>
+            </div>
+
+            <!-- 06: Dining Rooms -->
+            <div class="jr-project-col">
+                <article class="jr-card">
+                    <a href="#">
+                        <div class="jr-img-wrapper">
+                            <img src="https://c.imgcdn.me/723e05de0fad50f84ec610c44a2587dc353dae37/jandrwoodworking/dinning.png" alt="Dining Rooms">
+                        </div>
+                        <div class="jr-caption">
+                            <strong>Dining Rooms</strong>
+                        </div>
+                    </a>
+                </article>
+            </div>
+
+            <!-- 07: Kitchen Island -->
+            <div class="jr-project-col">
+                <article class="jr-card">
+                    <a href="#">
+                        <div class="jr-img-wrapper">
+                            <img src="https://c.imgcdn.me/ea8bbf699bbad931ad3dc705cf53161770d5b119/jandrwoodworking/kitchen.png" alt="Kitchen Islands">
+                        </div>
+                        <div class="jr-caption">
+                            <strong>Kitchen Islands</strong>
+                        </div>
+                    </a>
+                </article>
+            </div>
+
+            <!-- 09: Mudrooms -->
+            <div class="jr-project-col">
+                <article class="jr-card">
+                    <a href="#">
+                        <div class="jr-img-wrapper">
+                            <img src="https://c.imgcdn.me/5fbef01442a207acf93de0857b344847fc6a9803/jandrwoodworking/mudroom.png" alt="Mudrooms">
+                        </div>
+                        <div class="jr-caption">
+                            <strong>Mudrooms</strong>
+                        </div>
+                    </a>
+                </article>
+            </div>
+
+            <!-- 10: Tables -->
+            <div class="jr-project-col">
+                <article class="jr-card">
+                    <a href="#">
+                        <div class="jr-img-wrapper">
+                            <img src="https://c.imgcdn.me/0494a81a8de5544a633d9dfc5a09d3316b3c9b93/jandrwoodworking/table-slide.png" alt="Tables">
+                        </div>
+                        <div class="jr-caption">
+                            <strong>Tables</strong>
+                        </div>
+                    </a>
+                </article>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION: PREMIUM CONTACT PAGE -->
+<section id="contact-premium" class="contact-light-section">
+    <div class="container">
+        <div class="contact-wrapper">
+            
+            <!-- Column 1: Brand Info -->
+            <div class="contact-info-panel">
+                <span class="eyebrow-gold">Get In Touch</span>
+                <h1 class="contact-title">Let’s Craft Your <br><span class="text-serif">Masterpiece.</span></h1>
+                <p class="contact-desc">Whether you have a specific blueprint or just an inspired idea, our master craftsmen are ready to bring your vision to life.</p>
+                
+                <div class="info-details">
+                    <div class="info-item">
+                        <div class="info-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div>
+                            <strong>Our Workshop</strong>
+                            <p>Maryland</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon"><i class="fas fa-phone-alt"></i></div>
+                        <div>
+                            <strong>Direct Line</strong>
+                            <p>443-228-6769</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon"><i class="fas fa-envelope"></i></div>
+                        <div>
+                            <strong>Email Inquiries</strong>
+                            <p>info@lifeinpieces.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Column 2: The Inquiry Form -->
+            <div class="contact-form-panel">
+                <form id="premium-inquiry-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>Full Name</label>
+                            <input type="text" placeholder="John Doe" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Email Address</label>
+                            <input type="email" placeholder="john@example.com" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Project Interest</label>
+                        <select>
+                            <option>Custom Kitchen Island</option>
+                            <option>Home Office Suite</option>
+                            <option>Entertainment Center</option>
+                            <option>Other Architectural Millwork</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Message</label>
+                        <textarea rows="5" placeholder="Tell us about your project goals..."></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-gold-submit">
+                        Send Inquiry <span><i class="fas fa-paper-plane"></i></span>
+                    </button>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+    </main>
+
+    <!-- SECTION 14: FOOTER -->
+<footer class="footer">
+    <div class="container grid-footer">
+        <div class="footer-box brand-col">
+            <h3>LIFE <span class="text-gold">IN PISCES</span></h3>
+            <p>Architectural millwork and bespoke furniture designed for the most discerning clients. Precision in every grain, excellence in every detail.</p>
+            <div class="footer-socials">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+
+        <div class="footer-box">
+            <h4>Quick Links</h4>
+            <ul>
+                <li><a href="#"><b>Kitchen Design</b></a></li>
+                <li><a href="#"><b>Office Build-outs</b></a></li>
+                <li><a href="#"><b>Custom Furniture</b></a></li>
+                <li><a href="#"><b>Commercial Solutions</b></a></li>
+            </ul>
+        </div>
+
+        <div class="footer-box">
+            <h4>Contact Info</h4>
+            <div class="contact-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <p>Maryland</p>
+            </div>
+            <div class="contact-item">
+                <i class="fas fa-phone-alt"></i>
+                <p>443-228-6769</p>
+            </div>
+        </div>
+
+        <div class="footer-box">
+            <h4>Newsletter</h4>
+            <p class="newsletter-text">Join our list for exclusive design insights.</p>
+            <div class="sub-form">
+                <input type="email" placeholder="Email Address">
+                <button aria-label="Subscribe"><i class="fas fa-paper-plane"></i></button>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- SECTION 15: COPYRIGHT BAR -->
+<div class="copyright-bar">
+    <div class="container flex-footer">
+        <p>&copy; 2026 <b>Life In Pieces</b>. All Rights Reserved.</p>
+        <p>Designed by <a href="https://quantumcoresoftware.com/" class="designer-link"><b>Quantum Core Software</b></a></p>
+    </div>
+</div>
+<script>
+const toggle = document.getElementById('menu-toggle');
+const navLinks = document.querySelector('.nav-links');
+
+toggle.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+});
+</script>
+</body>
+</html>
